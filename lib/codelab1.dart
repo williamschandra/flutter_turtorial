@@ -12,15 +12,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wisata Bandung',
       theme: ThemeData(),
-      home: DetailScreen(),
+      home: DetailScreen1(),
     );
   }
 }
 
 var informationTextStyle = TextStyle(fontFamily: 'Oxygen');
 
-class DetailScreen extends StatelessWidget {
-  const DetailScreen({Key? key}) : super(key: key);
+class DetailScreen1 extends StatelessWidget {
+  const DetailScreen1({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

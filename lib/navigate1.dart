@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:turtorial_app/navigate2.dart';
+import 'navigate2.dart';
 
 void main() {
   runApp(FirstScreen());
